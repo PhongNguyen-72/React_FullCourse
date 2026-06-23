@@ -1,0 +1,84 @@
+.card {
+  border: 1px solid #000000;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px #000000;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  max-width: 200px;
+  display: inline-block;
+}
+
+.card .card-title {
+  font-family: Arial, sans-serif;
+  color: #303030;
+  margin: 0%;
+}
+
+.card .card-description {
+  font-family: Arial, sans-serif;
+  color: #606060;
+  margin: 0%;
+}
+
+.button-blue {
+  background-color: #2b81e3;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.student {
+  border: 1px solid #000000;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px #000000;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  max-width: 200px;
+  display: inline-block;
+}
+
+.student p {
+  font-family: Arial, sans-serif;
+  color: #303030;
+  margin: 0%;
+}
+
+.welcome-message {
+  font-family: Arial, sans-serif;
+  background-color: green;
+  color: #ffffff;
+  margin: 20px;
+  text-align: center;
+}
+
+.login-message {
+  font-family: Arial, sans-serif;
+  background-color: red;
+  color: #ffffff;
+  margin: 20px;
+  text-align: center;
+}
+
+.fruit-list {
+  text-align: center;
+  color: #ffffff;
+  background-color: #0000ff;
+  border: #ffffff solid 2px;
+  border-radius: 10px;
+  padding: 10px 20px;
+  margin: 10px auto;
+  max-width: 300px;
+}
+
+.item-list {
+  border: 1px solid #000000;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px #000000;
+  margin: auto;
+  text-align: center;
+  max-width: 200px;
+}
