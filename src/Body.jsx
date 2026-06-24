@@ -1,5 +1,6 @@
 import srcImage from "./assets/anhnen.png";
 import Button from "./Button.jsx";
+import Button1 from "./Button1.jsx";
 import Student from "./Student.jsx";
 import List from "./List.jsx";
 function Body() {
@@ -22,7 +23,8 @@ function Body() {
         avtar={srcImage}
       />
       <br />
-      <Button />
+      <Button name="Click Me" />
+      <Button1 name="Double-Click Me" />
       <List
         items={[
           { id: 1, name: "Table", price: 100 },

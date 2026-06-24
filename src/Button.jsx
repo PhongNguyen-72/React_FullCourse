@@ -1,5 +1,14 @@
-function Button() {
-  return <button className="button">Click me</button>;
+function Button({ name }) {
+  return (
+    <button
+      onClick={() => {
+        console.log(`Button clicked: ${name}`);
+      }}
+      className="button"
+    >
+      {name}
+    </button>
+  );
 }
 
 export default Button;
