@@ -1,6 +1,7 @@
 import srcImage from "./assets/anhnen.png";
 import Button from "./Button.jsx";
 import Button1 from "./Button1.jsx";
+import Button2 from "./Button2.jsx";
 import Student from "./Student.jsx";
 import List from "./List.jsx";
 function Body() {
@@ -25,6 +26,7 @@ function Body() {
       <br />
       <Button name="Click Me" />
       <Button1 name="Double-Click Me" />
+      <Button2 name="Click Me to Change Color" />
       <List
         items={[
           { id: 1, name: "Table", price: 100 },
