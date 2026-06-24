@@ -1,6 +1,7 @@
 import srcImage from "./assets/anhnen.png";
 import Button from "./Button.jsx";
 import Student from "./Student.jsx";
+import List from "./List.jsx";
 function Body() {
   return (
     <main>
@@ -22,6 +23,13 @@ function Body() {
       />
       <br />
       <Button />
+      <List
+        items={[
+          { id: 1, name: "Table", price: 100 },
+          { id: 2, name: "Chair", price: 50 },
+          { id: 3, name: "TV", price: 200 },
+        ]}
+      />
     </main>
   );
 }
