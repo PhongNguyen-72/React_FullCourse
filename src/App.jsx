@@ -1,3 +1,7 @@
+import Body from "./Body.jsx";
+import Footer from "./Footer.jsx";
+import Header from "./Header.jsx";
+
 function App() {
   const vegetables = [
     { id: 1, name: "Broccoli", calories: 50 },
@@ -5,7 +9,9 @@ function App() {
   ];
   return (
     <div>
-      <h2>Hello ! My name is Phong</h2>
+      <Header />
+      <Body />
+      <Footer />
     </div>
   );
 }
