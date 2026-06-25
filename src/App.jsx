@@ -1,4 +1,5 @@
 import Body from "./Body.jsx";
+import ColorPicker from "./ColorPicker.jsx";
 import Counter from "./Counter.jsx";
 import Footer from "./Footer.jsx";
 import Header from "./Header.jsx";
@@ -15,6 +16,7 @@ function App() {
       <Body />
       <Counter />
       <MyComponent />
+      <ColorPicker />
       <Footer />
     </div>
   );
