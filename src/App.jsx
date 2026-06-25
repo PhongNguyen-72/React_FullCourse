@@ -2,6 +2,7 @@ import Body from "./Body.jsx";
 import Counter from "./Counter.jsx";
 import Footer from "./Footer.jsx";
 import Header from "./Header.jsx";
+import MyComponent from "./MyComponent.jsx";
 
 function App() {
   const vegetables = [
@@ -13,6 +14,7 @@ function App() {
       <Header />
       <Body />
       <Counter />
+      <MyComponent />
       <Footer />
     </div>
   );
